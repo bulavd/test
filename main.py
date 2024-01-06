@@ -15,6 +15,7 @@ score = pygame.image.load('score_fon.png').convert_alpha()
 telega = pygame.image.load('telega.png').convert_alpha()
 t_rect = telega.get_rect(centerx=w//2, bottom=h-5)
 
+
 clock = pygame.time.Clock()
 FPS = 60
 game_score = 0
